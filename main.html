@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Xiomara Cárdenas - Artista Plastico</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+   <!-- BARRA DE NAVEGACIÓN -->
+  <nav class="navigation-bar">
+    <div class="navigation-container">
+      <strong>Xiomara Cárdenas</strong>
+      <button class="mobile-menu-button" onclick="toggleMobileMenu()">☰</button>
+      <ul class="navigation-menu" id="navigationMenu">
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="https://github.com/zara09130913-cmd" target="_blank">GitHub</a></li>
+        <li><a href="https://www.instagram.com/pintura.deluz/" target="_blank">Instagram</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- SECCIÓN PRINCIPAL -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1 class="hero-title">ARTISTA PLASTICO</h1>
+      <p class="hero-subtitle">Pintura experimental y creativa</p>
+    </div>
+  </section>
+
+  <!-- CONTENEDOR DE PROYECTOS -->
+  <div class="projects-container" id="proyectos">
+    <h2 class="projects-title">Mis Proyectos</h2>
+
+    <!-- PROYECTO 1 -->
+    <article class="project-card">
+      <div class="project-image-container" onclick="openImageModal(this)">
+        🎨✍️
+        <!-- Para usar imagen real, descomentar la línea siguiente y añadir la ruta -->
+        <!-- <img src="img/proyecto1.jpg" alt="Proyecto 1"> -->
+      </div>
+      <div class="project-information">
+        <h3 class="project-title">Arte conceptual y caligrafia</h3>
+        <p class="project-description">
+          Mezcla belleza del arte conceptual con ritmo lo que transmite movimiento, repetición y fluidez, y explora la belleza de la caligrafía a traves de diferentes estilos y técnicas.
+        </p>
+        <div class="technology-stack-list">
+          <span class="technology-badge">Oleo</span>
+          <span class="technology-badge">Acrilico</span>
+          <span class="technology-badge">Acuarela</span>
+        </div>
+        <a href="https://github.com/zara09130913-cmd/Galeria-de-arte" target="_blank" class="button-primary">
+          Ver en GitHub
+        </a>
+      </div>
+    </article>
+
+
+    <!-- PROYECTO 2 -->
+    <article class="project-card">
+      <div class="project-image-container" onclick="openImageModal(this)">
+        📚✨
+         <!-- Para usar imagen real, descomentar la línea siguiente y añadir la ruta -->
+        <!-- <img src="img/proyecto3.jpg" alt="Proyecto 3"> -->
+      </div>
+      <div class="project-information">
+        <h3 class="project-title">Libreria de luz</h3>
+        <p class="project-description">
+       Proyecto que ofrece una plataforma para compartir y descubrir obras literarias relacionadas con la espiritualidad.
+        </p>
+        <div class="technology-stack-list">
+          <span class="technology-badge">Teologia</span>
+          <span class="technology-badge">Familia</span>
+          <span class="technology-badge">Matrimonio</span>
+          <span class="technology-badge">Salud</span>
+        </div>
+        <a href="https://github.com/zara09130913-cmd/Libreria-de-luz" target="_blank" class="button-primary">
+          Ver en GitHub
+        </a>
+      </div>
+    </article>
+  </div>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="footer-section">
+    <div class="footer-certifications">
+      <div> Asturias</div>
+    </div>
+    <p class="footer-copyright">&copy; 2025 Xiomara Cárdenas - Artista plastico</p>
+  </footer>
+
+  <!-- MODAL PARA AMPLIAR IMAGEN -->
+  <div class="image-modal" id="imageModal" onclick="closeImageModal()">
+    <span class="modal-close-button">&times;</span>
+    <img class="modal-content-image" id="modalImage" alt="Imagen ampliada">
+  </div>
+
+    <script src="js/scritp.js"></script>
+  </body>
+</html>
