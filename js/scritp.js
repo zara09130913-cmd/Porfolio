@@ -5,18 +5,8 @@
     }
 
     // ========== FUNCIÓN: ABRIR IMAGEN EN MODAL ==========
-    function openImageModal(element) {
-      const modal = document.getElementById('imageModal');
-      const modalImg = document.getElementById('modalImage');
-      
-      // Buscar si hay imagen dentro del contenedor
-      const img = element.querySelector('img');
-      
-      if (img) {
-        modalImg.src = img.src;
-        modal.classList.add('is-active');
-      }
-    }
+  
+    
 
     // ========== FUNCIÓN: CERRAR MODAL ==========
     function closeImageModal() {

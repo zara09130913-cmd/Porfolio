@@ -7,14 +7,14 @@
 
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f5f5f5;
+      background: #442938;
       color: #333;
       line-height: 1.6;
     }
 
     /* ========== BARRA DE NAVEGACIÓN ========== */
     .navigation-bar {
-      background: #c8f6df;
+      background: #dceedc;
       box-shadow: 0 2px 10px rgba(0,0,0,0.1);
       position: sticky;
       top: 0;
@@ -61,14 +61,14 @@
     .hero-section {
       height: 100vh;
       background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
-                  url('../img/fondo\ pag1.jpg') no-repeat center center/cover;
+                  url('../img/fondo\ pag1.jpg') no-repeat center center fixed;
       background-size: cover;
       background-position: center;
       display: flex;
       align-items: center;
       justify-content: center;
       text-align: center;
-      color: rgb(130, 168, 145);
+      color: rgb(57, 163, 142);
     }
 
     .hero-content {
@@ -76,7 +76,7 @@
     }
 
     .hero-title {
-      font-size: 4rem;
+      font-size: 3rem;
       font-weight: bold;
       text-shadow: 3px 3px 6px rgba(0,0,0,0.7);
       margin-bottom: 1rem;
@@ -97,13 +97,13 @@
     .projects-title {
       text-align: center;
       font-size: 2.5rem;
-      color: #e76f0d;
+      color: #67a470;
       margin-bottom: 3rem;
     }
 
     /* ========== TARJETA DE PROYECTO ========== */
     .project-card {
-      background: white;
+      background: rgb(145, 113, 136);
       border-radius: 10px;
       padding: 2rem;
       margin: 2rem 0;
@@ -168,13 +168,13 @@
     }
 
     .project-title {
-      color: #eda972;
+      color: #71b891;
       font-size: 1.8rem;
       margin-bottom: 0.5rem;
     }
 
     .project-description {
-      color: #555;
+      color: #0f0f0f;
       line-height: 1.8;
       font-size: 1rem;
     }
@@ -188,8 +188,8 @@
     }
 
     .technology-badge {
-      background: #eda66d;
-      color: white;
+      background: #63916f;
+      color: rgb(17, 13, 13);
       padding: 0.4rem 1rem;
       border-radius: 20px;
       font-size: 0.85rem;
@@ -210,9 +210,9 @@
     }
 
     .button-primary:hover {
-      background: #f5aa6d;
+      background: #b8f1c9;
       transform: translateY(-2px);
-      box-shadow: 0 4px 8px rgba(231, 111, 13, 0.3);
+      box-shadow: 0 4px 8px rgba(5, 27, 3, 0.3);
     }
 
     /* ========== PIE DE PÁGINA ========== */
@@ -274,7 +274,7 @@
     }
 
     .modal-close-button:hover {
-      color: #e7ad7e;
+      color: #b6f0a8;
     }
 
     /* ========== ANIMACIONES ========== */
